@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
 # Loading the dataset
-data = pd.read_csv("your_dataset.csv")
+data = pd.read_csv("creditcard.csv")
 
 # Separating the features & target variable
 X = data.drop(columns=['Label'])
